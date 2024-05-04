@@ -6,7 +6,7 @@ export default function Chat() {
     return (
         <div className="grid grid-cols-4 flex-1 dark:bg-slate-950 bg-slate-950">
             <LeftSidebar />
-            <ChatWindow chatId={chatId} />
+            <ChatWindow />
             <RightSidebar />
         </div>
     );
